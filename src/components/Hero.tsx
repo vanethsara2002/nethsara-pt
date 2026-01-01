@@ -17,9 +17,11 @@ export function Hero() {
         >
           <div className="mb-8 relative inline-block">
             <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-blue-400 to-indigo-600 p-1 shadow-2xl hover:scale-105 transition-transform duration-300">
-              <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-6xl font-bold text-blue-600 dark:text-blue-400">
-                VN
-              </div>
+                <img
+                  src="https://i.imgur.com/x7dv1pS.jpeg"
+                  alt="Vihanga Nethsara"
+                  className="w-full h-full rounded-full object-cover"
+                />
             </div>
             <div className="absolute -bottom-2 -right-2 w-12 h-12 bg-green-500 rounded-full border-4 border-white dark:border-gray-800 animate-pulse"></div>
           </div>
